@@ -1,0 +1,38 @@
+body{
+	font-family: 'Cormorant', serif;
+}
+.container {
+	margin: 50px 240px 85px 240px;
+
+}
+.logotip {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 196px;
+  height: 57px;
+  z-index: 5;
+  margin: 50px 240px 85px 240px;
+
+}
+
+
+.nav{
+	font-family: 'Work Sans', sans-serif;
+
+	float: right;
+	justify-content: space-between;
+	
+	position: absolute;
+	text-transform: uppercase;
+	text-decoration: none;
+	
+}
+
+
+li a{
+	
+	font-size: 12px;
+	/*margin: 0 10px;*/
+	}
+
