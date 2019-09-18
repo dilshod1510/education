@@ -1,38 +1,73 @@
 body{
-	font-family: 'Cormorant', serif;
-}
-.container {
-	margin: 50px 240px 85px 240px;
-
-}
-.logotip {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 196px;
-  height: 57px;
-  z-index: 5;
-  margin: 50px 240px 85px 240px;
-
-}
-
-
-.nav{
-	font-family: 'Work Sans', sans-serif;
-
-	float: right;
-	justify-content: space-between;
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
 	
-	position: absolute;
-	text-transform: uppercase;
+}
+header{
+	background: url(../img/first-bg.jpg) no-repeat center top / cover;
+	height: 695px;
+}
+.container{
+	margin: 0 auto;
+	width: 930px;
+}
+
+.web_master_uz {
+  display: inline-block; /*margin-topni qabul qilishi uchun majburmiz*/
+  margin-top: 45px;/*dispaly: inline-block borligi uchun u bolmasa padding berish kerak*/
+  font-size: 25px;
+  font-family: Museo Sans Cyrl, Arial, sans-serif;
+  color: rgb(254, 209, 54);
+  font-style: italic;
+  text-decoration: none;
+}
+a:hover{
 	text-decoration: none;
-	
+	color: red;
 }
-
-
-li a{
-	
-	font-size: 12px;
-	/*margin: 0 10px;*/
-	}
-
+nav{
+	float: right;
+}
+.menu{
+	padding: 0;
+	margin: 0;
+}
+nav li{
+	margin-top: 54px;
+	float: left;
+	list-style-type: none;
+}
+.menu a{
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-left: 15px;
+	display: block;
+	font-size: 14px;
+}
+.titles{
+	margin-top: 205px;
+	text-align: center;
+	padding: 0;
+}
+.titles_first{
+	text-transform: uppercase;
+	color: #ffffff;
+	font-size: 40px;
+}
+.titles h1{
+	margin: 50px 0 60px 0;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 75px;
+}
+.knopka{
+	background: #fed136;
+	width: 240px;
+	height: 65px;
+	color: #484543;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: bold;
+}
